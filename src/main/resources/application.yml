@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /jfcloud
+logging:
+  level:
+    root: ERROR
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update #更新表结构
+    show-sql: true  #打印sql
+  database-platform: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jfcloud?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+camels:
+  home: E:\workspace\jfcloud\jfcloud
