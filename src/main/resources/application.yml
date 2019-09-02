@@ -20,5 +20,5 @@ spring:
     user:
       name: admin
       password: admin
-camels:
+jfcloud:
   home: E:\workspace\jfcloud\jfcloud
